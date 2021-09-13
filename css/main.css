@@ -116,6 +116,13 @@ body {
   justify-content: space-between;
 }
 
+.intro {
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 span {
     font-family: 'Satisfy', cursive;
 }
@@ -137,6 +144,15 @@ span {
     border-right: white solid 1px;
 }
 
+
+footer {
+    width: 100%;
+}
+
+footer ul{
+    display: flex;
+    list-style-type: none;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
