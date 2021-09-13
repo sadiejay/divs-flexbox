@@ -147,6 +147,7 @@ span {
 
 footer {
     width: 100%;
+    border-top: white solid 1px;
 }
 
 footer ul{
